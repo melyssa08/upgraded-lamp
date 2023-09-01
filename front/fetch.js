@@ -1,6 +1,6 @@
 var mostrar = document.getElementById('mostrar')
 
-fetch("http://localhost:3003")
+fetch("http://ip-10-0-132-166.ec2.internal:3003")
   .then((data) => {
     return data.json(); // Retorna a promessa resultante de data.json()
   })
